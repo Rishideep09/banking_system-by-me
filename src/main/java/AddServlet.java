@@ -27,7 +27,7 @@ public class AddServlet extends HttpServlet {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             Connection con = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/banking_system",
+                "jdbc:mysql://192.168.31.13:3306/banking_system",
                 "root",
                 "1234"
             );
